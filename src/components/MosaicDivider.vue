@@ -11,8 +11,13 @@ onUnmounted(() => {
 
 function handleScroll() {
   const container = document.getElementById('mosaic-div');
-  const backgroundPositionX = window.scrollY * 0.7;
-  container.style.backgroundPosition = `-${backgroundPositionX}px 0px`;
+
+  if (container) { // Check if container is not null
+    const backgroundPositionX = window.scrollY * 0.7;
+    container.style.backgroundPosition = `-${backgroundPositionX}px 0px`;
+  } else {
+    console.error('Element with ID "mosaic-div" was not found.');
+  }
 }
 </script>
 
