@@ -37,6 +37,8 @@ declare module 'vue' {
     MosaicDivider: typeof import('./src/components/MosaicDivider.vue')['default']
     NavigationBar: typeof import('./src/components/NavigationBar.vue')['default']
     NeonText: typeof import('./src/components/NeonText.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     StoreInfo: typeof import('./src/components/StoreInfo.vue')['default']
     StoreInfoDiviver: typeof import('./src/components/StoreInfoDiviver.vue')['default']
   }

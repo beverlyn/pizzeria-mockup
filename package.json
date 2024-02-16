@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.79",
+    "@vercel/analytics": "^1.1.4",
     "vue": "^3.3.11",
     "vue-router": "4"
   },
